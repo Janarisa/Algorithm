@@ -14,7 +14,7 @@ public class BMRCal{
             int old=sc.nextInt();
             double BMR=66+(13.7*weight)+(5*high)-(6.8*old);
             System.out.println("Your BMR is : "+BMR);
-        }else{
+        }else if(sex=='f'){
             System.out.print("Enter your weight (kilograms): ");
             int weight=sc.nextInt();
             System.out.print("Enter your high (centimeters): ");
